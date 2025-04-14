@@ -21,7 +21,7 @@ Manually analyzing thousands of customer reviews is inefficient and time-consumi
 
 ### 1. Review Classification
 
-- **Model**: Fine-tuned `bert-base-uncased` using Hugging Face Transformers.
+- **Model**: Fine-tuned `tabularisai/multilingual-sentiment-analysis` using Hugging Face Transformers.
 - **Labels**:
   - 1–2 stars → Negative
   - 3 stars → Neutral
@@ -105,8 +105,8 @@ Built using **Gradio**, the interactive web application allows users to:
 
 ##  Sample Results
 
-- Classification Accuracy: **87.4%**
-- F1-score (Positive): **0.91**
+- Classification Accuracy: **89.4%**
+- F1-score (Positive): **0.96**
 - 5 Product Clusters (e.g., Accessories, Batteries, E-readers)
 - Auto-generated summaries for each cluster category
 
@@ -132,5 +132,5 @@ Built using **Gradio**, the interactive web application allows users to:
 
 ---
 
-## By Albandari Altalhi
+## By Yasser Alshehri
 ---
